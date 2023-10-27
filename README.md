@@ -54,15 +54,15 @@ There are two tables could be merged by ID
 | Ocean Proximity    | How Far Near Ocean   |           | Non Binary Category | ----------      |
 
 **Steps Involved in Model Development:**
-Data Analysis (EDA)
-Data Preprocessing.
-Feature Engineering.
-Feature Selection (SelectKBest)
-Fit into Algorithm (ML Algorithm)
-Hyper Parameter Tunning (RandomSearchCV)
-Dump model (Pickle)
+Data Analysis (EDA)  
+Data Preprocessing  
+Feature Engineering  
+Feature Selection (SelectKBest)  
+Fit into Algorithm (ML Algorithm)  
+Hyper Parameter Tunning (RandomSearchCV)  
+Dump model (Pickle)  
 Creating Web Application using Flask
-Deployed in Web using heroku platform
+Deployed in Web using Cloud Platform
 
 **Run Project Procedure:**
 In this project, First you need to download dataset Telco-Customer-churn.csv Then open your commant prompt and run this code pip install jupyterlab. After pip install requirements.txt all packages are needed in this project are automatically installed on your machine. After Download app.py files and run TelecomCustomerChurn.ipynb files into your machine And some inputs to check our model and Its accuracy of prediction
