@@ -69,6 +69,7 @@ In this project, First you need to download dataset Telco-Customer-churn.csv The
 
 **Reference:**
 
+<!-- Resource Reference:<a href="https://www.kaggle.com/datasets/blastchar/telco-customer-churn/"><Resource Name-Kaggle> Kaggle Problem Reference</a>   -->
 <!-- Github Reference:<a href="https://github.com/satz2000/End-to-end-project---Customer-churn"><Resource Name-Github> Github Repository</a>   -->
 
 Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Original Dataset.csv</a>  
