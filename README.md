@@ -21,15 +21,20 @@
 
 **Algorithm:** Univariate Linear Regression, Multivariate Linear Regression
 
-**Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Execdata
+**Package Usage:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Execdata, Scipy, Imblean, Counter
 
-**Projects:** ABC Project Name
+**Projects:** Telco Customer Churn Prediction
 
 **Problem Description**  
-Predict the porfit of startup compnay with folloing fileds
+In our dataset, Total amount of Monthly charges are around 16,056,169$ from that 18% of amount loss around 2862927% Due to the customer churn.
+Total number of customer around 7043 but 27% of people to be churn which around 1869 customer from the overall customer,
+So we need to predict the person who are all wants to be churn.Its very important to that company because they want new customer as well as retain the previous customer to stay in there company.
 
 **Problem Task**  
-Predict the porfit of startup compnay with folloing fileds
+Churn prediction means detecting which customers are likely to cancel a subscription to a service based on how they use the service. It is a critical prediction for many businesses because acquiring new clients often costs more than retaining existing ones. Once you can identify those customers that are at risk of cancelling, you should know exactly what marketing action to take for each individual customer to maximise the chances that the customer will remain.
+
+**Reason For Task**  
+Customer churn is a common problem across businesses in many sectors. If you want to grow as a company, you have to invest in acquiring new clients. Every time a client leaves, it represents a significant investment lost. Both time and effort need to be channelled into replacing them. Being able to predict when a client is likely to leave, and offer them incentives to stay, can offer huge savings to a business.
 
 **Problem Variables**  
 There are two tables could be merged by ID
@@ -47,6 +52,20 @@ There are two tables could be merged by ID
 | Median Income      | Average Income       |           | Constant            | ----------      |
 | Median House Value | Average House Value  | US Dollar | Binary Category     | Traget Variable |
 | Ocean Proximity    | How Far Near Ocean   |           | Non Binary Category | ----------      |
+
+**Steps Involved in Model Development:**
+Data Analysis (EDA)
+Data Preprocessing.
+Feature Engineering.
+Feature Selection (SelectKBest)
+Fit into Algorithm (ML Algorithm)
+Hyper Parameter Tunning (RandomSearchCV)
+Dump model (Pickle)
+Creating Web Application using Flask
+Deployed in Web using heroku platform
+
+**Run Project Procedure:**
+In this project, First you need to download dataset Telco-Customer-churn.csv Then open your commant prompt and run this code pip install jupyterlab. After pip install requirements.txt all packages are needed in this project are automatically installed on your machine. After Download app.py files and run TelecomCustomerChurn.ipynb files into your machine And some inputs to check our model and Its accuracy of prediction
 
 **Reference:**
 
