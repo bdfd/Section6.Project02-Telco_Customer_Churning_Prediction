@@ -39,19 +39,29 @@ Customer churn is a common problem across businesses in many sectors. If you wan
 **Problem Variables**  
 There are two tables could be merged by ID
 
-| Field              | Description          | Unit      | dtype               | Comments        |
-| ------------------ | -------------------- | --------- | ------------------- | --------------- |
-| Table 1            | housing.csv          |           | Table Name          | ----------      |
-| Longitude          | Location             |           | Continuous          | ----------      |
-| Latitude           | Location             |           | Continuous          | ----------      |
-| Housing Median Age | Age                  |           | Continuous          | ----------      |
-| Total Rooms        | Total Living Area    |           | Continuous          | ----------      |
-| Total Bedrooms     | Bedroom Area Count   |           | Continuous          | ----------      |
-| Population         | Number of People     |           | Continuous          | ----------      |
-| Households         | Number of Households |           | Continuous          | ----------      |
-| Median Income      | Average Income       |           | Constant            | ----------      |
-| Median House Value | Average House Value  | US Dollar | Binary Category     | Traget Variable |
-| Ocean Proximity    | How Far Near Ocean   |           | Non Binary Category | ----------      |
+| Field            | Description                       | Unit | dtype               | Comments        |
+| ---------------- | --------------------------------- | ---- | ------------------- | --------------- |
+| Table 1          | Telco-Customer-Churn.csv          |      | Table Name          | ----------      |
+| CustomerID       |                                   |      | Random Generate     | Drop Variable   |
+| Gender           |                                   |      | Binary Category     | ----------      |
+| SeniorCitizen    |                                   |      | Binary Category     | ----------      |
+| Partner          |                                   |      | Binary Category     | ----------      |
+| Dependents       |                                   |      | Binary Category     | ----------      |
+| tenure           | Number of month stay with company |      | Continuous          | ----------      |
+| PhoneService     |                                   |      | Tri Category        | ----------      |
+| MutipleLines     |                                   |      | Tri Category        | ----------      |
+| InternetService  |                                   |      | Tri Category        | ----------      |
+| OnlineSecurity   |                                   |      | Tri Category        | ----------      |
+| OnlineBackup     |                                   |      | Tri Category        | ----------      |
+| DeviceProtection |                                   |      | Tri Category        | ----------      |
+| TechSupport      |                                   |      | Tri Category        | ----------      |
+| StreamingTV      |                                   |      | Tri Category        | ----------      |
+| StreamingMovie   |                                   |      | Tri Category        | ----------      |
+| Contarct         |                                   |      | Tri Category        | ----------      |
+| PaperlessBilling |                                   |      | Binary Category     | ----------      |
+| PaymentMethod    |                                   |      | Non Binary Category | ----------      |
+| TotalCharges     |                                   |      | Continous           | ----------      |
+| Churn            |                                   |      | Binary Category     | Traget Variable |
 
 **Steps Involved in Model Development:**
 Data Analysis (EDA)  
