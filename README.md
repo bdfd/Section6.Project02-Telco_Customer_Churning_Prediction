@@ -82,14 +82,16 @@ In this project, First you need to download dataset Telco-Customer-churn.csv The
 <!-- Resource Reference:<a href="https://www.kaggle.com/datasets/blastchar/telco-customer-churn/"><Resource Name-Kaggle> Kaggle Problem Reference</a>   -->
 <!-- Github Reference:<a href="https://github.com/satz2000/End-to-end-project---Customer-churn"><Resource Name-Github> Github Repository</a>   -->
 
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Original Dataset.csv</a>  
-Dateset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/dataset/Salary.csv">Processed Dataset.csv</a>  
-Train Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/train_x.csv">Train_X.csv</a>,
-<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/train_y.csv">Train_y.csv</a>  
-Test Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/test_x.csv">Test_X.csv</a>,
-<a href="https://raw.githubusercontent.com/bdfd/Portfolio_Project_10-Salary_Prediction/main/display%20demo/test_y.csv">Test_y.csv</a>  
-Demo:<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/Salary_Prediction.ipynb">Jupyter Notebook/Colab Link</a>  
-Visualization:<a href="https://github.com/bdfd/Section6.Project04_Customer_Segmentation/blob/main/display%20demo/Clustering_Bivariate.png">Train Result</a>,<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/display%20demo/test%20result.png">Test Result</a>
+Dateset:<a href="https://raw.githubusercontent.com/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/main/1.0%20dataset/S602_Original_Dataset.csv">Original Dataset.csv</a>  
+Dateset:<a href="https://raw.githubusercontent.com/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/main/1.0%20dataset/S602_Preprocessed.csv">Processed Dataset.csv</a>  
+Dateset:<a href="https://github.com/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/blob/main/1.0%20dataset/S602_Mungged.csv">Mugged Dataset.csv</a>  
+Train Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/main/1.0%20dataset/S602_X_train.csv">Train_X.csv</a>,
+<a href="https://raw.githubusercontent.com/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/main/1.0%20dataset/S602_y_train.csv">Train_y.csv</a>  
+Test Processed Dataset:<a href="https://raw.githubusercontent.com/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/main/1.0%20dataset/S602_X_test.csv">Test_X.csv</a>,
+<a href="https://raw.githubusercontent.com/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/main/1.0%20dataset/S602_y_test.csv">Test_y.csv</a>  
+Demo:<a href="https://github.com/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/blob/main/2.0%20colab/0602-Preprocessed.ipynb">Jupyter Notebook/Colab Link</a>
+
+<!-- Visualization:<a href="https://github.com/bdfd/Section6.Project04_Customer_Segmentation/blob/main/display%20demo/Clustering_Bivariate.png">Train Result</a>,<a href="https://github.com/bdfd/Portfolio_Project_10-Salary_Prediction/blob/main/display%20demo/test%20result.png">Test Result</a> -->
 <br>
 
 <div align="center">
