@@ -2,7 +2,7 @@
  * @Date         : 2023-10-20 14:26:16
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-11-07 12:12:49
+ * @LastEditTime : 2023-11-08 14:17:36
  * @LastEditors  : BDFD
  * @Description  : 
  * @FilePath     : \predict\templates\homepage\Customer_Info_Submit_Form.html
@@ -35,14 +35,14 @@
     </div>
     <br />
     <div class="col-md-10 form-group" style="text-align: center">
-        <label><b>The Customer Parnter Information:</b> </label><br>
-        <select class="selectpicker form-control" id="Parnter" name="Parnter"
+        <label><b>The Customer Partner Information:</b> </label><br>
+        <select class="selectpicker form-control" id="Partner" name="Partner"
             required="1">
-            {% if Parnter%}
-            <option value="{{ Parnter }}">{{ Parnter }}</option>
+            {% if Partner %}
+            <option value="{{ Partner }}">{{ Partner }}</option>
             {% endif %}
-            {% for Parnter in partner_lists %}
-            <option value="{{ Parnter }}">{{ Parnter }}</option>
+            {% for Partner in partner_lists %}
+            <option value="{{ Partner }}">{{ Partner }}</option>
             {% endfor %}
         </select>
     </div>
@@ -62,7 +62,7 @@
     <br />
     <div class="col-md-10 form-group" style="text-align: center">
         <label><b>Tenure Length:</b> </label><br>
-        <input class="selectpicker form-control" id="tenure" name="tenure"
+        <input class="selectpicker form-control" id="tenure" name="tenure" value="{{tenure}}"
             required="1">
     </div>
     <br />
@@ -135,7 +135,7 @@
     <br />
     <div class="col-md-10 form-group" style="text-align: center">
         <label><b>Bundle Monthly Price:</b> </label><br>
-        <input class="selectpicker form-control" id="MonthlyCharges"
+        <input class="selectpicker form-control" id="MonthlyCharges" value="{{MonthlyCharges}}"
             name="MonthlyCharges" required="1">
     </div>
     <br />
