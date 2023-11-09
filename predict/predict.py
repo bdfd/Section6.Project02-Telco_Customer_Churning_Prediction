@@ -2,7 +2,7 @@
 Date         : 2022-12-09 12:54:06
 Author       : BDFD,bdfd2005@gmail.com
 Github       : https://github.com/bdfd
-LastEditTime : 2023-11-08 14:22:30
+LastEditTime : 2023-11-09 10:25:53
 LastEditors  : BDFD
 Description  : 
 FilePath     : \predict\predict.py
@@ -90,4 +90,9 @@ def predict_index():
         return render_template('homepage/predict_index.html', result=result, SeniorCitizen=SeniorCitizen,
                                 Partner=Partner, Dependents=Dependents, tenure=tenure, OnlineSecurity=OnlineSecurity,
                                 TechSupport=TechSupport, Contract=Contract, PaperlessBilling=PaperlessBilling,
-                                PaymentMethod=PaymentMethod, MonthlyCharges=MonthlyCharges)
+                                PaymentMethod=PaymentMethod, MonthlyCharges=MonthlyCharges,
+                                seniorcitizen_lists=seniorcitizen_lists,
+                                partner_lists=partner_lists, dependents_lists=dependents_lists,
+                                onlinesecurity_lists=onlinesecurity_lists, techsupport_lists=techsupport_lists,
+                                contract_lists=contract_lists, paperlessbilling_lists=paperlessbilling_lists,
+                                paymentmethod_lists=paymentmethod_lists)
