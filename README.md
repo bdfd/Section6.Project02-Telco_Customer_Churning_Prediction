@@ -4,14 +4,15 @@
 ![ViewCount](https://views.whatilearened.today/views/github/bdfd/Section6.Project02-Tele_Customer_Churning_Prediction.svg?cache=remove)
 ![GitHub top language](https://img.shields.io/github/languages/top/bdfd/Section6.Project02-Tele_Customer_Churning_Prediction?style=flat)
 ![GitHub language count](https://img.shields.io/github/languages/count/bdfd/Section6.Project02-Tele_Customer_Churning_Prediction?style=flat)
-<img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/On_Progress.svg" alt="bdfd" />
-
-<!-- <img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/Finish.svg" alt="bdfd" /> -->
+<img height=20 src="https://cdn.jsdelivr.net/gh/bdfd/Personal_Image_Repo/7.Color-Icon/Status/Finish.svg" alt="bdfd" />
 
 ## Applied Learning Project
 
-<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Intermediate-blue.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />  
-<!-- <img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Advanced-red.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" /> -->
+<img height="27" src="https://img.shields.io/badge/Prediction using Supervised ML -Level  Intermediate-blue.svg?&style=for-the-badge&logo=TheSparksFoundation&logoColor=red" />
+
+### Project Demo Link - [Click Here](https://zero602-tele-customer-churn.onrender.com)
+
+![Car Prediction](https://cdn.jsdelivr.net/gh/bdfd/Section6.Project02-Telco_Customer_Churning_Prediction/predict/static/images/Customer_Churn.png)
 
 **Tools:** Colab/Jupyter Notebook, GitHub
 
