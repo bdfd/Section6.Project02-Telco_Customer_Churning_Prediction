@@ -16,7 +16,7 @@
 
 **Tools:** Colab/Jupyter Notebook, GitHub
 
-**Algorithm Category:** Regression, Classification
+**Algorithm Category:** Supervised Classification
 
 **Purpose:** Data Cleaning, Apply Algorithm
 
